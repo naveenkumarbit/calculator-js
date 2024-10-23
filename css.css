@@ -1,0 +1,36 @@
+table { 
+    border: 1px solid black; 
+	margin-left: auto; 
+	margin-right: auto; 
+    margin-top: 200px;
+    width: 30%;
+    border-spacing: 10px;
+    
+	} 
+
+input[type="button"] { 
+    width: 100%; 
+	padding: 30px 10px; 
+	background-color: rgb(65, 108, 155); 
+	color: rgb(0, 0, 0); 
+	font-size: 15px;  
+	border: none; 
+    border-radius: 5px; 
+    } 
+
+input[type="text"] { 
+    padding: 20px 30px; 
+	font-size: 15px; 
+    width: 100%;
+	border: none; 
+	border-radius: 5px; 
+	border: 2px solid black; 
+	}
+body{
+    background-color: rgb(255, 255, 255);
+}     
+input:hover{
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.20);
+    background-color: rgb(155, 199, 237);
+}
+
